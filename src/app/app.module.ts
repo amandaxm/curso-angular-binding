@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DataBidingComponent } from './data-biding/data-biding.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DataBidingComponent
   ],
   imports: [
     BrowserModule,
