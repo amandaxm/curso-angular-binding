@@ -77,5 +77,10 @@
         property binding quando usamos nome de variavel []
     -->
         <app-curso [nome]="nomeDoCurso"></app-curso>
+
+        <!--passar valor fixo para output como 10 nao precisa [] 
+            se for passar variavel valorInicial, precisa []
+        -->
+        <contador [valor]="valorInicial" (mudouValor)="onMudouValor($event)"></contador>
     </article>
 </section>
