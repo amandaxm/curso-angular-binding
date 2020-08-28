@@ -14,6 +14,7 @@ export class DataBidingComponent implements OnInit {
   conteudoAtual: string = '';
   conteudoSalvo: string = '';
   isMouseOver = false;
+ 
   
   getValor() {
     return 1;
@@ -30,9 +31,11 @@ export class DataBidingComponent implements OnInit {
     console.log(event);
     this.conteudoAtual = event.key;
   }
+  // tslint:disable-next-line: typedef
   onSave(valor: string) {
     this.conteudoSalvo = valor;
   }
+  // tslint:disable-next-line: typedef
   onMouseSpan() {
     this.isMouseOver = !this.isMouseOver;
   }
