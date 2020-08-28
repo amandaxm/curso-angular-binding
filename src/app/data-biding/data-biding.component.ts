@@ -14,6 +14,7 @@ export class DataBidingComponent implements OnInit {
   conteudoAtual: string = '';
   conteudoSalvo: string = '';
   isMouseOver = false;
+  nomeDoCurso: string='Angular';
  
   
   getValor() {
